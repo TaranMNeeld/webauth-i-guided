@@ -64,9 +64,6 @@ server.get('/hash', (req, res) => {
 function protected() {
   let password = req.header.password;
   let username = req.header.username;
-  if (username ) {
-
-  }
 }
 
 
